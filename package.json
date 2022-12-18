@@ -1,0 +1,34 @@
+{
+  "name": "simple-css-animation-package",
+  "version": "1.0.11",
+  "description": "This is a very simple package for those who want to have CSS animations included in their next project no matter which framework with no underneath dependencies ",
+  "main": "dist.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "dist.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdiamenein/simple-css-animation-package.git"
+  },
+  "keywords": [
+    "javascript",
+    "animations",
+    "javascript animation",
+    "animation",
+    "css",
+    "css animation"
+  ],
+  "author": "Mehdi Roshan Fekr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehdiamenein/simple-css-animation-package/issues"
+  },
+  "homepage": "https://github.com/mehdiamenein/simple-css-animation-package#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.15",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.4"
+  }
+}
