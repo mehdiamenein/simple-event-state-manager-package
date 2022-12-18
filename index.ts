@@ -34,6 +34,12 @@ function RegisterListener(eventName: string, callback: any) {
   });
 }
 
+function RemoveListener(eventName: string, callback: any) {
+  SimpleEventStateManager.myEventBus?.removeEventListener(eventName, (e) => {
+    callback(e);
+  });
+}
+
 function EmitMessage(eventName: string, data: any) {
   SimpleEventStateManager.emit(eventName, data);
 }

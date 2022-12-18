@@ -5,6 +5,7 @@ declare class SimpleEventStateManager {
 }
 
 declare function RegisterListener(eventName: string, callback: any): void;
+declare function RemoveListener(eventName: string, callback: any): void;
 declare function EmitMessage(eventName: string, data: any): void;
 
-export { SimpleEventStateManager, RegisterListener, EmitMessage };
+export { SimpleEventStateManager, RegisterListener, EmitMessage, RemoveListener };

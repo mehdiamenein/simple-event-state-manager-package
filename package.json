@@ -1,6 +1,6 @@
 {
   "name": "simple-event-state-manager-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a very simple package for those who want to have CSS animations included in their next project no matter which framework with no underneath dependencies ",
   "main": "dist.js",
   "types": "index.d.ts",
