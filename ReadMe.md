@@ -4,4 +4,5 @@ An extremely simple easy to use state manager with storing the states in the mem
 
 ## Version Notes
 
+**1.0.1** - Type support added
 **1.0.0** - Base creation

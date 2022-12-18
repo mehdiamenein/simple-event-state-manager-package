@@ -1,6 +1,6 @@
 {
-  "name": "simple-css-animation-package",
-  "version": "1.0.11",
+  "name": "simple-event-state-manager-package",
+  "version": "1.0.1",
   "description": "This is a very simple package for those who want to have CSS animations included in their next project no matter which framework with no underneath dependencies ",
   "main": "dist.js",
   "types": "index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mehdiamenein/simple-css-animation-package.git"
+    "url": "git+https://github.com/mehdiamenein/simple-event-state-manager-package.git"
   },
   "keywords": [
     "javascript",
@@ -23,9 +23,9 @@
   "author": "Mehdi Roshan Fekr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mehdiamenein/simple-css-animation-package/issues"
+    "url": "https://github.com/mehdiamenein/simple-event-state-manager-package/issues"
   },
-  "homepage": "https://github.com/mehdiamenein/simple-css-animation-package#readme",
+  "homepage": "https://github.com/mehdiamenein/simple-event-state-manager-package#readme",
   "devDependencies": {
     "@types/node": "^18.11.15",
     "tsc": "^2.0.4",

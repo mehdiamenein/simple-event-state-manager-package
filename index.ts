@@ -28,14 +28,14 @@ class SimpleEventStateManager {
   }
 }
 
-const RegisterListener = (eventName: string, callback: any) => {
+function RegisterListener(eventName: string, callback: any) {
   SimpleEventStateManager.myEventBus?.addEventListener(eventName, (e) => {
     callback(e);
   });
-};
+}
 
-const EmitMessage = (eventName: string, data: any) => {
+function EmitMessage(eventName: string, data: any) {
   SimpleEventStateManager.emit(eventName, data);
-};
+}
 
 module.exports = { SimpleEventStateManager, RegisterListener, EmitMessage };
